@@ -1,4 +1,5 @@
 # LangChain + Gemini + MCP (Tool Server)
+[![smithery badge](https://smithery.ai/badge/@eriktilio/mcp-langchain-integration)](https://smithery.ai/server/@eriktilio/mcp-langchain-integration)
 
 Este projeto demonstra como criar um chain com LangChain usando o modelo **gemini-2.0-flash** do Google e integrá-lo com ferramentas customizadas usando o **MCP** (Multi-Chain Protocol), via conexão `stdio`.
 
@@ -16,6 +17,14 @@ A chain é capaz de:
 - [uv](https://github.com/astral-sh/uv) (ou `pip` tradicional)
 
 ## 📦 Instalação
+
+### Installing via Smithery
+
+To install LangChain Gemini Tool Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@eriktilio/mcp-langchain-integration):
+
+```bash
+npx -y @smithery/cli install @eriktilio/mcp-langchain-integration --client claude
+```
 
 #### Com uv (recomendado)
 
