@@ -1,3 +1,5 @@
+[![MseeP Badge](https://mseep.net/pr/eriktilio-mcp-langchain-integration-badge.jpg)](https://mseep.ai/app/eriktilio-mcp-langchain-integration)
+
 # LangChain + Gemini + MCP (Tool Server)
 
 Este projeto demonstra como criar um chain com LangChain usando o modelo **gemini-2.0-flash** do Google e integrá-lo com ferramentas customizadas usando o **MCP** (Multi-Chain Protocol), via conexão `stdio`.
